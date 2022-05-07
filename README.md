@@ -21,7 +21,7 @@ cd exempleDockerfile
 
 - Construisez l'image décrite dans dockerfile avec docker build : 
 ```shell
-docker build -t <choisir-un-nom-pour-l'image>
+docker build -t <choisir-un-nom-pour-l'image> .
 ```
 
 - Lancer le serveur web :
